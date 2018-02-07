@@ -1,0 +1,24 @@
+.wrapper {
+    max-width: 1600px;
+}
+
+.main {
+    max-width: 1150px;
+    &__head {}
+    &__img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.lang {}
+
+.ukr_eng {
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 33px;
+    height: 26px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
