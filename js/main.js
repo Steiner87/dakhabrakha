@@ -6,3 +6,11 @@ jQuery(document).ready(function() {
         e.preventDefault();
     });
 });
+
+var menu = document.getElementsByClassName('menu');
+menu.appendChild("div");
+// <div class="toggle-nav">
+// <div></div>
+// <div></div>
+// <div></div>
+// </div>

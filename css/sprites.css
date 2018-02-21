@@ -15,61 +15,64 @@
 }
 
 .amazon {
+    display: block;
     background-position: 0 -72px;
-    width: 66px;
     height: 13px;
+    padding-left: 66px;
     margin-bottom: -5px;
 }
 
 .amazon:hover {
     background-position: 0 -91px;
-    width: 66px;
+    /* width: 10px; */
     height: 13px;
+    padding-left: 66px;
 }
 
 .apple {
+    display: block;
     background-position: 0 0;
-    width: 48px;
     height: 14px;
+    padding-left: 50px;
 }
 
 .apple:hover {
     background-position: 0 -17px;
-    width: 48px;
     height: 14px;
+    padding-left: 50px;
 }
 
 .band {
+    display: block;
     background-position: 0 -39px;
-    width: 74px;
     height: 12px;
     margin-bottom: -2px;
+    padding-left: 75px;
 }
 
 .band:hover {
     background-position: 0 -55px;
-    width: 74px;
+    padding-left: 75px;
     height: 12px;
 }
 
 .clock {
     background-position: -76px -81px;
-    width: 16px;
-    height: 16px;
-    padding-right: 15px;
+    height: 18px;
+    padding-left: 26px;
 }
 
 .mail {
     background-position: -78px -21px;
-    width: 17px;
+    width: 18px;
     height: 11px;
 }
 
 .map_marker {
     background-position: -79px -58px;
-    width: 14px;
-    height: 15px;
-    padding-right: 15px;
+    /* width: 14px; */
+    height: 18px;
+    padding-left: 26px;
 }
 
 .map_marker_gray {

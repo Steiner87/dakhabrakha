@@ -27,13 +27,14 @@ h4 {
     margin-bottom: 15px;
 }
 
-.wrapper {
+#wrapper {
     max-width: 1600px;
     padding-left: 10px;
     padding-right: 10px;
+    margin: auto;
 }
 
-.header {
+#header {
     max-width: 1150px;
     margin: auto;
 }
@@ -58,7 +59,7 @@ nav>ul li a:hover {
     color: #f4a902;
 }
 
-.main {
+#main {
     max-width: 1150px;
     margin: auto;
 }
@@ -67,8 +68,16 @@ nav>ul li a:hover {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    /* width: 100%;
+    height: auto; */
+    /* background-size: cover; */
     width: 100%;
     height: 708px;
+    /* background-position: top center; */
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
 }
 
 .main__head {
@@ -100,7 +109,9 @@ nav>ul li a:hover {
     font-family: Onen-Sans;
 }
 
-.main__img {}
+.main__sun {
+    display: block;
+}
 
 .main__ring {
     text-align: center;
@@ -169,7 +180,7 @@ nav>ul li a:hover {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    /* padding-bottom: 137px;  делим эту величину с другими элементами*/
+    /* justify-content: space-between; */
     padding-bottom: 100px;
 }
 
@@ -177,6 +188,8 @@ nav>ul li a:hover {
     padding-top: 70px;
     padding-bottom: 37px;
     width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .main__buttons {
@@ -188,14 +201,13 @@ nav>ul li a:hover {
     width: 364px;
 }
 
-.events {
-    display: flex;
-    justify-content: space-between;
-}
+.events {}
 
 .events__left {}
 
-.events__right {}
+.events__right {
+    width: 213px;
+}
 
 .events__right ul {
     padding-top: 16px;
@@ -216,11 +228,7 @@ nav>ul li a:hover {
     width: 87px;
 }
 
-.lang a .lang__eng:hover {
-    color: #f4a902;
-}
-
-.lang a .lang__ukr:hover {
+.lang a:hover {
     color: #f4a902;
 }
 
@@ -229,7 +237,7 @@ nav>ul li a:hover {
     border: 3px solid #afafaf;
     border-radius: 100px;
     width: 35px;
-    height: 26px;
+    height: 23px;
     padding-top: 8px;
     text-align: center;
 }
@@ -266,13 +274,13 @@ a:hove .lang__eng {
     border-color: #afafaf;
     border-radius: 100px;
     width: 35px;
-    height: 26px;
+    height: 23px;
     padding-top: 8px;
     text-align: center;
     /* padding-bottom: 1px; */
 }
 
-.footer {
+#footer {
     max-width: 1150px;
     margin: auto;
     padding-bottom: 156px;
@@ -281,6 +289,8 @@ a:hove .lang__eng {
 .footer__contacts {
     display: flex;
     font-family: Open-Sans;
+    max-width: 1150px;
+    margin: auto;
 }
 
 .footer__address {
@@ -299,7 +309,6 @@ a:hove .lang__eng {
 }
 
 .footer__links {
-    width: 268px;
     padding-bottom: 20px;
 }
 
@@ -386,7 +395,7 @@ li .track:hover .sound {
     width: 157px;
     padding-top: 14px;
     padding-bottom: 10px;
-    margin-left: 34px;
+    margin-left: 25px;
 }
 
 .btn_big {
